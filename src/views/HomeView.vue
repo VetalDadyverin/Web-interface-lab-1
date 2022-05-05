@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <MyGrid :myGrid="$store.state.grid.components" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import MyGrid from "@/components/MyGrid.vue";
 
 export default {
   name: "HomeView",
-  components: {
-    HelloWorld,
+  components: { MyGrid },
+  methods: {
+    onClick() {
+      console.log(this.$store.state.grid);
+    },
   },
 };
 </script>
+
+<style>
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+</style>
