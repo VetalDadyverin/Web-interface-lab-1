@@ -1,24 +1,6 @@
-# vue-lab-1
+# Лабораторна робота №1 "Розробка клієнтської частини Web-додатка"
 
-## Project setup
-```
-npm install
-```
+## Виконав: Дадиверін Віталій Валерійович, студент групи КВ-11мп
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Звіт лабораторної роботи №1 https://docs.google.com/document/d/1qTHUbDgPKPflnTUbRjv2XeEgx6SpxiVMIgtTOUMXE-Y
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
