@@ -1,10 +1,20 @@
 <template>
   <div>
     <h1>Login</h1>
-    <input type="text" placeholder="Username" v-model="userName" />
-    <input type="text" placeholder="Password" v-model="password" />
+    <input
+      type="text"
+      name="userName"
+      placeholder="Username"
+      v-model="userName"
+    />
+    <input
+      type="text"
+      name="password"
+      placeholder="Password"
+      v-model="password"
+    />
     <input type="button" @click="login()" value="Login" />
-    <p v-if="msg">{{ msg }}</p>
+    <p v-if="msg" name="msg">{{ msg }}</p>
   </div>
 </template>
 

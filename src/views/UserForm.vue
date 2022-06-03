@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
     <h1>User</h1>
-    <h4>Name:{{ this.userName }}</h4>
+    <h4 name="name">Name:{{ this.userName }}</h4>
     <p>
       <input
         type="text"
@@ -10,7 +10,7 @@
         v-model="newName"
       />
     </p>
-    <h4>Password:{{ this.password }}</h4>
+    <h4 name="pass">Password:{{ this.password }}</h4>
     <p>
       <input
         type="text"

@@ -1,7 +1,7 @@
 <template>
   <div class="userview">
     <div v-if="this.$store.state.choose === true">
-      <h3>Login or Sign Up</h3>
+      <h3 name="userv">Login or Sign Up</h3>
       <div class="container">
         <div class="row">
           <button class="btn Login" @click="log()">Login</button>
